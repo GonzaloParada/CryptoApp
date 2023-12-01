@@ -29,7 +29,6 @@ interface Props {
   name: string | undefined
 }
 
-const hours = ["1hs,2hs,3hs,4hs,5hs,6hs,7hs,8hs,9hs,10hs,11hs,12hs,13hs,14hs,15hs,16hs,17hs,18hs,19hs,20hs,21hs,22hs,23hs,24hs"]
 
 export const CustomChart = ({ sparkline, color, name }: Props) => {
 
