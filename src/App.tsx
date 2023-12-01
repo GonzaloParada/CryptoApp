@@ -24,9 +24,10 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <CssBaseline />
       <div style={{ backgroundColor: "rgba(241, 241, 241, 0.433)", height: "100vh" }}>
-        {!isLoading ? <CustomDrawer coins={coins} setCoin={setCoin}>
-          <Dashboard coin={coin} />
-        </CustomDrawer> : <p>Loading...</p>}
+        <CustomDrawer coins={coins} setCoin={setCoin}>
+          {!isLoading ?
+            <Dashboard coin={coin} /> : <p>Loading...</p>}
+        </CustomDrawer>
       </div>
 
     </QueryClientProvider>
