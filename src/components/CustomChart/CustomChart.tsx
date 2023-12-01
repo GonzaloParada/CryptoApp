@@ -34,7 +34,7 @@ export const CustomChart = ({ sparkline, color, name }: Props) => {
 
   const coinColor = color ?? "rgb(12, 136, 218)"
   const miData = {
-    labels: sparkline?.map((el, index) => index + 1 + "hs"),
+    labels: sparkline?.map((_el, index) => index + 1 + "hs"),
     datasets: [
       {
         label: name ?? "sparkline",
