@@ -20,7 +20,7 @@ interface Props {
 
 }
 
-export default function CustomCard({ coin }: Props) {
+export function CustomCard({ coin }: Props) {
   return (
 
     <>

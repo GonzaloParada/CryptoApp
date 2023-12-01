@@ -1,5 +1,5 @@
 import { CustomChart } from '../CustomChart/CustomChart'
-import CustomCard from '../CustomCard/CustomCard'
+import { CustomCard } from '../CustomCard/CustomCard'
 import { Coin } from '../../interfaces/interface'
 import "./Dashboard.css"
 
